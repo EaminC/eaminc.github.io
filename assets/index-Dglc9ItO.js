@@ -9509,9 +9509,9 @@ const S0 = () => {
         btnList: [
           {
             icon: "icon-wodeboke",
-            animate: "LinkedIn",
+            animate: "CV",
             color: "#fe8599",
-            href: "https://www.linkedin.com/in/yiming-cheng-429999330/",
+            href: "./intro.html",
           },
           {
             icon: "icon-github",
