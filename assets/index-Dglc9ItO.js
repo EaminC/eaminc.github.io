@@ -9511,7 +9511,7 @@ const S0 = () => {
             icon: "icon-wodeboke",
             animate: "CV",
             color: "#fe8599",
-            href: "/intro.html",
+            href: "./intro.html",
           },
           {
             icon: "icon-github",
