@@ -9501,10 +9501,11 @@ const S0 = () => {
         techHidden: !0,
         aboutHidden: !0,
         typingTexts: [
+          "Welcome to Eamin Chan's Presonal Website! ",
           "Outlier is me",
-          "代码代码 烧饭烧饭",
-          "璐璐的独家饲养官",
-          "别卷了 朋友",
+          "All models are wrong,but some are useful",
+          "Dont walk gentle into that good night",
+          "Love you,Lu",
         ],
         btnList: [
           {
