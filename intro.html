@@ -73,6 +73,49 @@
         color: #7f8c8d;
         float: right;
       }
+      .compact-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+      .compact-item {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 8px;
+        padding: 8px 0;
+        border-bottom: 1px solid #f0f0f0;
+      }
+      .compact-label {
+        font-weight: 600;
+        color: #2c3e50;
+        min-width: 140px;
+      }
+      .field-details {
+        display: grid;
+        gap: 6px;
+      }
+      .url-detail {
+        font-size: 0.9em;
+        color: #666;
+        width: 100%;
+        padding-left: 148px;
+      }
+      .number-box {
+        display: inline-block;
+        border: 2px solid #2c3e50;
+        border-radius: 5px;
+        padding: 4px 10px;
+        font-weight: bold;
+        color: #2c3e50;
+        font-size: 1em;
+        margin-right: 10px;
+      }
+      @media print {
+        .compact-item {
+          page-break-inside: avoid;
+        }
+      }
     </style>
   </head>
   <body>
@@ -108,29 +151,28 @@
       <h2>PUBLICATIONS</h2>
       <div class="publication-item">
         • Yang, Y., <span class="highlight">Cheng, Y.</span>, Feng, H., & Han,
-        Z. "Emotion-Aware Scene Adaptation: A Bandwidth-Efficient
-        Approach for Generating Animated Short". <i>MDPI Sensors 2024.</i>.
+        Z. "Emotion-Aware Scene Adaptation: A Bandwidth-Efficient Approach for
+        Generating Animated Short". <i>MDPI Sensors 2024.</i>.
       </div>
       <div class="publication-item">
         • Lan, X., <span class="highlight">Cheng, Y.</span>, Sheng, L., Gao, C.,
-        & Li, Y. "Depression detection on social media with large
-        language models". <i>arXiv preprint</i> arXiv:2403.10750.
+        & Li, Y. "Depression detection on social media with large language
+        models". <i>arXiv preprint</i> arXiv:2403.10750.
       </div>
       <div class="publication-item">
         • Lan, X., Piao, .., <span class="highlight">Cheng, Y.</span>, Gao, C.,
-        Li, Y., et al. "Recommendation for Inclusivity of
-        Underrepresented Producers in User-generated Content Platforms".
-        <i>in Recycle</i>.
+        Li, Y., et al. "Recommendation for Inclusivity of Underrepresented
+        Producers in User-generated Content Platforms". <i>in Recycle</i>.
       </div>
       <div class="publication-item">
         • Yang, Y., Feng, H., <span class="highlight">Cheng, Y.</span>, Ma, Y.,
-        & Han, Z.  "Minimizing Hallucinations and Communication Cost:
-        Adversarial Debate and Voting Mechanisms in LLM-Based Multi-Agents".
+        & Han, Z. "Minimizing Hallucinations and Communication Cost: Adversarial
+        Debate and Voting Mechanisms in LLM-Based Multi-Agents".
         <i>MDPI Applied Science 2025</i>.
       </div>
       <div class="publication-item">
-        • <span class="highlight">Cheng, Y.</span>  "Research on
-        Recommendation System Technology Based on Large Language Models".
+        • <span class="highlight">Cheng, Y.</span> "Research on Recommendation
+        System Technology Based on Large Language Models".
         <i>Tsinghua University Graduation Design</i>.
       </div>
       <div class="publication-item">
@@ -143,7 +185,7 @@
     <!-- 研究经历 -->
     <div class="section-block">
       <h2>RESEARCH EXPERIENCE</h2>
-
+<span class="number-box">Graduate</span>
       <div>
         <span class="institution">Lmcache Team</span>
         <span class="date">Sep 2024 - Present</span>
@@ -168,6 +210,26 @@
         </ul>
       </div>
 
+      <div>
+        <span class="institution">Argonne National Laboratory</span>
+        <span class="date">May 2025 - Oct 2025</span>
+        <div>
+          Research Assistant
+          <span class="advisor">Advisor: Prof. Kexin Pei</span>
+        </div>
+        <ul>
+          <li>
+            2025 Summer of Reproducibility (SoR) Fellowship under the Open
+            Source Research Experience (OSRE) and REPETO programs,with United
+            States National Science Foundation
+          </li>
+          <li>
+            EnvGym: Project Leader,build and design a system-optimized agent
+            system for environment setup
+          </li>
+        </ul>
+      </div>
+<span class="number-box">Undergraduate</span>
       <div style="margin-top: 25px">
         <span class="institution"
           >Future Intelligent Lab (FIBLAB), Tsinghua University</span
@@ -317,16 +379,32 @@
         </ul>
       </div>
     </div>
+
+      <div style="margin-top: 25px">
+        <span class="institution"
+          >Shanghai Nonconvex Intelligent Technology Co., Ltd. </span
+        >
+        <span class="date">May 2025 — Sep 2025</span>
+        <div>Quantitative Fin-tech Developer Intern(Remote)</div>
+        <ul>
+          <li>todo</li>
+        </ul>
+      </div>
+    </div>
+
+
+
     <div class="section-block">
       <h2>ADDITIONAL INFORMATION</h2>
       <div class="compact-layout">
         <!-- 奖学金 -->
         <div class="compact-item">
           <span class="compact-label">Scholarship:</span>
-          <span
-            >Merit-based Predoc Scholarship of $40,000, University of
-            Chicago</span
-          >
+          <span>
+            Merit-based Predoc Scholarship of $40,000, University of Chicago
+            (2024)<br />
+            United States National Science Foundation for SoR project (2025)
+          </span>
         </div>
 
         <!-- 研究领域 -->
@@ -366,41 +444,5 @@
         </div>
       </div>
     </div>
-
-    <style>
-      .compact-layout {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 12px;
-      }
-      .compact-item {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: baseline;
-        gap: 8px;
-        padding: 8px 0;
-        border-bottom: 1px solid #f0f0f0;
-      }
-      .compact-label {
-        font-weight: 600;
-        color: #2c3e50;
-        min-width: 140px;
-      }
-      .field-details {
-        display: grid;
-        gap: 6px;
-      }
-      .url-detail {
-        font-size: 0.9em;
-        color: #666;
-        width: 100%;
-        padding-left: 148px; /* 对齐标签宽度 */
-      }
-      @media print {
-        .compact-item {
-          page-break-inside: avoid;
-        }
-      }
-    </style>
   </body>
 </html>
