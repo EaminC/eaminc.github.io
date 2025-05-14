@@ -9512,7 +9512,7 @@ const S0 = () => {
             icon: "icon-wodeboke",
             animate: "CV",
             color: "#fe8599",
-            href: "../assets/resume_20250510.pdf",
+            href: "../assets/resume_20250512.pdf",
           },
           {
             icon: "icon-github",
